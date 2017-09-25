@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'My first trip: The wonderful Himalayan'
+title: 'My first post: K- Means'
 img: himalayan.jpg
 date: '2017-07-12 12:55:00 +0300'
 description: >-
