@@ -15,11 +15,11 @@ banner-desc: # add banner description
 
 # Author settings
 author-pic: face.jpg # your photo
-author-name: # your name
+author-name: Ganesh Mandarapu# your name
 about-author: # about author
 email: ganesh.mandarapu@gmail.com # your email
 phone: (848)-248-6917 # your pnone number
-website: https://dwayne.example.com # you website
+website:  # you website
 
 # Social link
 google_url:    # add url link
