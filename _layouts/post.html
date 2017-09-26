@@ -6,20 +6,21 @@ layout: default
 
 <main class="post_content">
   <article class="post">
-    <header>
-      <div class="post_image">
-        <span>
-        <img src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-        </span>  
-      </div>
-      <div class="post_description">
-        <span>
-        <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
-        <h1 class="post_title">{{page.title}}</h1>
-        </span>  
-      </div>
-    </header> <!-- End Header -->
-
+    <div class="post_wrapper">  
+      <header>
+        <div class="post_image">
+          <img src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        </div>
+        <div class="post_description">
+          <p class="post_meta">{{page.date | date: '%Y, %b %d'}}</p>
+          <h1 class="post_title">{{page.title}}</h1>
+        </div>
+        <div class="post_share">
+          <span>Complete Project:</span>
+          <a href="https://github.com/ganeshmandarapu?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>         
+        </div>
+      </header> <!-- End Header -->
+    </div>
     <div class="entry_content">
       {{page.content | markdownify}}
     </div>
