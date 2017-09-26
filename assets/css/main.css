@@ -3963,7 +3963,10 @@ cite {
 }
 
 #banner {
-  position: relative;
+  #position: relative;
+  position: absolute;
+  left: 2.5%;
+  bottom: 40%;
 }
 
 #banner .content {
