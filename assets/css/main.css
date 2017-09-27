@@ -3963,9 +3963,7 @@ cite {
 }
 
 #banner {
-  position: absolute;
-  left: 2.5%;
-  bottom: 30%;
+  position: relative;
 }
 
 #banner .content {
