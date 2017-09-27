@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "My first trip: The wonderful Himalayan"
-img: himalayan.jpg # Add image post (optional)
+title: "Gradient Descent Algorithm"
+img: new-york.jpg # Add image post (optional)
 date: 2016-12-09 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-tag: [Travel, Blogging, Mountains]
+
 ---
 
 In my previous blog, I have presented syntactical differences and similar functions between R & Python. Now, I want to take it to next level and write some machine learning algorithms using both R and Python. Here, one may use direct functions from the packages available. However, here I am presenting the way to write your own functions for algorithms.  In this series, I am starting with Gradient decent algorithm.  I will briefly explain what is gradient decent, then, simulate data for simple linear regression. We apply gradient decent algorithm for a linear regression to identify parameters. I will show how you can write your own functions for simple linear regression using gradient decent in both R and Python. I will show the results of both R and Python codes. 
