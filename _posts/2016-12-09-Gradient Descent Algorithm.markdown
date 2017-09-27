@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Gradient Descent Algorithm
-		Implemented machine learning algorithm using both R and Python"
+title: "Gradient Descent Algorithm"
 img: new-york.jpg # Add image post (optional)
 date: 2016-12-09 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
