@@ -1,4 +1,4 @@
-, ---
+---
 layout: post
 title: "Empowering The Frontend Users"
 img: sweden.jpg # Add image post (optional)
