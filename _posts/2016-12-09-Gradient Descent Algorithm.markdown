@@ -20,19 +20,19 @@ In machine learning, the regression function y = theta0 + theta1x is referred to
 Let us start with simulating data for simple linear regression.  
 
 
-###R
+##R
 
 Importing the dummy data we created.
 
 ```{r cars}
+
 setwd("S:\\ANALYTICS\\R_Programming\\Gradient_Descent")
 
 N      <- 100
 x      <- rnorm(n = 100, m=48.9, sd=9.7)
 beta   <- 0.4
 errors <- rweibull(N, shape=3, scale=10)
-# errors <- -1*errors   # this makes them left skewed
-errors <- errors - factorial(1/1.5)  # this centers the error distribution on 0
+errors <- errors - factorial(1/1.5)  ----- this centers the error distribution on 0
 y      <- 1 + x*beta + errors
 
 data <- data.frame(x,y)
@@ -46,7 +46,7 @@ write.csv(data, file = "Data.csv", row.names = FALSE)
 Below we are considering the above simulated data for the python coding purpose.
 
 ```{r}
-###Data simulation for python
+
 colnames(data) <- NULL
 
 write.csv(data, file = "Data_Python.csv", row.names = FALSE)
@@ -60,6 +60,7 @@ Now we have to change the dimension of x(predictor) and y(response) accordigly t
 create the x- matrix of explanatory variables. Here we are producing a matrix with 1's in 100 rows to make the matrix dimension is such a way that the multiplicatioin is possible.
 
 ```{r, message=FALSE, warning=FALSE}
+
 Data <- read.csv("Data.csv", header = TRUE)
 
 head(Data)
@@ -84,12 +85,7 @@ head(y)
 Derivative gradient is the next step after simulating the data in which we obtain the initial parameters. For initializing the parameter of hypothesis function we considered the first order derivative of the cost function in the below function.  
 
 where m is the total number of training examples and h(x(i)) is the hypothesis function defined like this:
-
-![Hypothesis Equation](Hypothesis.png)
-
 For determining the initial gradient values we have to consider the first derivative of the cost function which shown below. Cost function
-
-![Cost Function](CostFun.png) 
 
 ```{r}
 Initial_Gradient <- function(x, y, theta) {
@@ -100,8 +96,6 @@ Initial_Gradient <- function(x, y, theta) {
   gradient <- (1/m)* (t(x) %*% (loss))
   return(t(gradient))
 }
-
-
 
 ```
 
@@ -125,7 +119,6 @@ gradient_descent <- function(x, y, Numiterrations){
   # Initialize the coefficients as matrix
 
   theta <- matrix(c(0, 0), nrow=1) 
-  #theta <- c(0,0)
   #learning rate
   alpha = 0.0001 
   for (i in 1:Numiterrations) {
