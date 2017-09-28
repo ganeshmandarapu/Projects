@@ -7,6 +7,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 
 ---
 
+Shiny App: https://ganeshmandarapu.shinyapps.io/recommendation_app/
 
 
 This is a prototype of productionable item based similarity for clothes retailer. Item similarity based recommendations are usually more accurate than user similarity based ones. It is relatively easier to capture item similarity than user similarity due to lot of variety in human preferences. In real world environment ( Consider Amazon recommendations)  similarity indexes are calculated and kept in data frame/ database and when some user express interest (by click) on any item. From the database, the information on similar items is fetched and displayed on the screen. 
