@@ -70,9 +70,6 @@ layout: default
         {% for post in site.posts offset:0 limit:6 %}
           {% if post.title %}
             <a href="{{ root_url }}{{ post.url }}" class="recent_item" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )"><span>{{ post.title }}</span></a>
-            <div class="entry_content">
-              {{page.content | markdownify}}
-            </div>
           {% endif %}
         {% endfor %}
       </div>
