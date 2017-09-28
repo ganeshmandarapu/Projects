@@ -1,4 +1,4 @@
----
+, ---
 layout: post
 title: "Empowering The Frontend Users"
 img: sweden.jpg # Add image post (optional)
@@ -14,7 +14,7 @@ A marketing manager of retail company has a team of 8 campaigning managers. On a
 The challenge is that they do not want to go to the modeling team all times for this work. Here is the application that can help.
 
 Here the process after login in to the shiny app:
-<img src="assets/img/About_Img.jpg">
+
 
 This has numerous applications in marketing in any industry such as media , retail and banking.  
 
