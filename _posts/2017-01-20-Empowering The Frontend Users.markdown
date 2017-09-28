@@ -9,6 +9,8 @@ tag: [Customers, Marketing, Retail]
 
 Shiny App: https://ganeshmandarapu.shinyapps.io/myapp1/
 
+Required Data for testing above application is provided at this github Repository:https://github.com/ganeshmandarapu/RShiny-Applications
+
 A marketing manager of retail company has a team of 8 campaigning managers. On a weekly basis, each manager identifies list of customers that they want to send a marketing email. However, once they have a list based on some rules, they want to check in the entire database, if there are any customers, who are similar this list, so that they can get bigger target customers based on their budget. 
 
 The challenge is that they do not want to go to the modeling team all times for this work. Here is the application that can help.
