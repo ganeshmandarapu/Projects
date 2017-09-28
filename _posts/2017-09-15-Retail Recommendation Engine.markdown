@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Retail Recommendation Engine"
-img: sweden.jpg # Add image post (optional)
-date: 2017-09-15 12:54:00 +0300
+img: indonesia.jpg # Add image post (optional)
+date: 2017-09-15 12:51:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
----
 
+---
 In real world recommendation engines work in two different ways 
 Item based recommendations are usually more accurate, as it is relatively easier to capture item similarity than user similarity. This shiny app can be considered as a prototype of productionable item based similarity for clothes retailer. 
 Usually similarity indexes are calculated and kept in data frame/ database and when some user express interest (by click) on any item. From the database, the information on similar items is fetched and displayed on the screen. 
